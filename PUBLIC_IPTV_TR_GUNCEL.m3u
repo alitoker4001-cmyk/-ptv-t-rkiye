@@ -1,0 +1,21 @@
+#EXTM3U
+# Son kanal-bazli dogrulama: 2026-09-14. 2026-09-15 canli HLS testi yapilamadi.
+#EXTINF:-1 tvg-id="TRT1.tr@SD" group-title="Ulusal",TRT 1
+https://tv-trt1.medya.trt.com.tr/master.m3u8
+# ATV 360p: PublicIPTV sayfasinda HTTP 200 olarak listelenmis; yerel oynatma testi yapilamadi.
+#EXTINF:-1 tvg-id="ATV.tr@SD" group-title="Ulusal",ATV (360p - Dusuk veri)
+http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" group-title="Ulusal",ATV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-id="KanalD.tr@SD" group-title="Ulusal",Kanal D
+https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
+#EXTINF:-1 tvg-id="StarTV.tr@SD" group-title="Ulusal",Star TV (720p)
+https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3&sid=8l4w3lst4co5
+#EXTINF:-1 tvg-id="HaberturkTV.tr@SD" group-title="Haber",Habertürk
+https://tv.ensonhaber.com/haberturk/haberturk.m3u8
+#EXTINF:-1 tvg-id="HaberGlobal.tr@SD" group-title="Haber",Haber Global
+https://tv.ensonhaber.com/haberglobal/haberglobal.m3u8
+#EXTINF:-1 tvg-id="TRTHaber.tr@SD" group-title="Haber",TRT Haber
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="FBTV.tr@SD" group-title="Spor",FB TV
+http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
