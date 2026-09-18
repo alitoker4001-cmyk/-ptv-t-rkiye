@@ -1,10 +1,10 @@
 #EXTM3U x-tvg-url="https://www.open-epg.com/files/turkey1.xml.gz,https://www.open-epg.com/files/turkey2.xml.gz,https://www.open-epg.com/files/turkey3.xml.gz,https://www.open-epg.com/files/turkey4.xml.gz,https://www.open-epg.com/files/turkey5.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz,https://dearbulut.github.io/iptv/epg/guide.xml.gz" url-tvg="https://www.open-epg.com/files/turkey1.xml.gz,https://www.open-epg.com/files/turkey2.xml.gz,https://www.open-epg.com/files/turkey3.xml.gz,https://www.open-epg.com/files/turkey4.xml.gz,https://www.open-epg.com/files/turkey5.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz,https://dearbulut.github.io/iptv/epg/guide.xml.gz"
-# Kaynak taban: Turkiye_200_Calisan_HD_EPG_2026-09-11.m3u; onceki yayindaki dogrulanan ekler korundu.
-# Kontrol: 2026-09-17. Her eklenen yayin icin HLS manifesti ve en az bir medya parcasi indirildi, ffprobe ile video cozunurlugu okundu.
-# Kisa tek parca incelemesi uzun sureli oynatma veya yayin haklari garantisi degildir.
-# 124 yayina erisildi. ATV 720p: medya parcasi tekrar zaman asimina ugradi; listeden cikarildi.
-# CNN Turk: yayincinin sayfasindaki acik HLS 403; farkli dogrulanmis izinli kaynaga erisilemedi.
-# TRT 1: 403; canli yayin alternatifini yalnizca yayin tipine uygun resmî uygulamada izleyin.
+# Kaynak taban: Turkiye_200_Calisan_HD_EPG_2026-09-11.m3u ve onceki yayindaki dogrulanan ekler.
+# Kontrol: 2026-09-18. HLS manifesti ve en az bir medya parcasi indirildi; ffprobe ile video cozunurlugu okundu.
+# Bu kisa test, surekli oynatma garantisi veya ayri bir yeniden dagitim izni tespiti degildir.
+# 127 yayin. CNN Turk yayinci sayfasindaki HLS 403; farkli dogrulanmis izinli kaynak bulunamadi.
+#EXTINF:-1 tvg-id="TRT1.tr" tvg-name="TRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/TRT_1_logo_%282021-%29.svg/960px-TRT_1_logo_%282021-%29.svg.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",TRT 1 (1440p)
+https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="ATV.tr" tvg-name="ATV" tvg-logo="https://i.imgur.com/HyVUwFC.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",ATV (360p)
 http://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
 #EXTINF:-1 tvg-id="KanalD.tr" tvg-name="Kanal D" tvg-logo="https://i.imgur.com/9o1atM6.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Kanal D (1080p)
@@ -23,14 +23,14 @@ https://tv-trthaber.medya.trt.com.tr/master.m3u8
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 tvg-id="AHaber.tr" tvg-name="A Haber" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7c/Ahaber_Logo.png" tvg-country="TR" tvg-language="tur" group-title="Haber",A Haber (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/ahaber/ahaber.m3u8
-#EXTINF:-1 tvg-id="TGRTHaber.tr" tvg-name="TGRT Haber" tvg-logo="https://i.imgur.com/PrxwKDw.png" tvg-country="TR" tvg-language="tur" group-title="Haber",TGRT Haber (720p)
-https://canli.tgrthaber.com/tgrt.m3u8
 #EXTINF:-1 tvg-id="CNBCe.tr" tvg-name="CNBC-e" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CNBC-e_2025.svg/960px-CNBC-e_2025.svg.png" tvg-country="TR" tvg-language="tur" group-title="Ekonomi",CNBC-e (1080p)
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
 #EXTINF:-1 tvg-id="ASpor.tr" tvg-name="A Spor" tvg-logo="https://i.imgur.com/ZhkZzLf.png" tvg-country="TR" tvg-language="tur" group-title="Spor",A Spor (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTINF:-1 tvg-id="HTSporTV.tr" tvg-name="HTSpor TV" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" tvg-country="TR" tvg-language="tur" group-title="Spor",HTSpor TV (1080p)
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 tvg-id="TRTCocuk.tr" tvg-name="TRT Cocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png" tvg-country="TR" tvg-language="tur" group-title="Çocuk",TRT Cocuk (1440p)
+https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-name="TRT Muzik" tvg-logo="https://i.imgur.com/JgUzRH8.png" tvg-country="TR" tvg-language="tur" group-title="Müzik",TRT Muzik (1440p)
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTTurk.tr" tvg-name="TRT Turk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",TRT Turk (1440p)
@@ -65,11 +65,9 @@ https://edge1.socialsmart.tv/altastv/bant1/playlist.m3u8
 https://live.al-zahratv.com/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AnadoluNetTV.tr" tvg-name="Anadolu Net TV" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Anadolu Net TV (1080p)
 https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
-#EXTINF:-1 tvg-id="ArasTV.tr" tvg-name="Aras TV" tvg-logo="https://i.imgur.com/JsDCyWG.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Aras TV (720p)
-http://1.rtmp.org/tv217/yayin.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ASTV.tr" tvg-name="AS TV" tvg-logo="https://asset.artidijitalmedya.com/image/188x188/channels/v1/logo_13.png" tvg-country="TR" tvg-language="tur" group-title="Haber",AS TV (1080p)
 https://live.artidijitalmedya.com/artidijital_astv/astv/playlist.m3u8
-#EXTINF:-1 tvg-id="ATVAlanya.tr" tvg-name="ATV Alanya" tvg-logo="https://i.imgur.com/bUwarR0.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",ATV Alanya (1080p)
+#EXTINF:-1 tvg-id="ATVAlanya.tr" tvg-name="ATV Alanya" tvg-logo="https://i.imgur.com/bUwarR0.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",ATV Alanya (720p)
 https://cdn-alanyatv.yayin.com.tr/alanyatv/alanyatv/playlist.m3u8
 #EXTINF:-1 tvg-id="BirTV.tr" tvg-name="Bir TV" tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",Bir TV (720p)
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
@@ -105,6 +103,8 @@ https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 https://yayin30.haber100.com/live/finansturk/playlist.m3u8
 #EXTINF:-1 tvg-id="FlashHaberTV.tr" tvg-name="Flash Haber TV" tvg-country="TR" tvg-language="tur" group-title="Haber",Flash Haber TV (1080p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c053c48829f.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="FortunaTV.tr" tvg-name="Fortuna TV" tvg-logo="https://i.imgur.com/ZbUSlOC.png" tvg-country="TR" tvg-language="tur" group-title="Yaşam",Fortuna TV (1080p)
+https://edge.taksimbilisim.com/ftvturk/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="GrandCinema.tr" tvg-name="Grand Cinema" tvg-country="TR" tvg-language="fas" group-title="Film",Grand Cinema (720p)
 https://gcinemahls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GuneydoguTV.tr" tvg-name="Guneydogu TV" tvg-logo="https://i.imgur.com/JT5pp3Y.png" tvg-country="TR" tvg-language="tur" group-title="Haber",Guneydogu TV (720p)
@@ -135,8 +135,6 @@ https://edge1.socialsmart.tv/kanal33/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_kanal58/kanal58/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalFirat.tr" tvg-name="Kanal Firat" tvg-logo="https://i.imgur.com/3o8Rokp.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Kanal Firat (720p)
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
-#EXTINF:-1 tvg-id="KanalHayat.tr" tvg-name="Kanal Hayat" tvg-logo="https://i.imgur.com/eikZj19.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Kanal Hayat (1080p)
-https://tbn02a.ltnschedule.com/hls/nx21i.m3u8
 #EXTINF:-1 tvg-id="KanalV.tr" tvg-name="Kanal V" tvg-logo="https://i.imgur.com/7RNjTno.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Kanal V (720p)
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
 #EXTINF:-1 tvg-id="KayTV.tr" tvg-name="Kay TV" tvg-logo="https://i.imgur.com/MymuDJ1.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Kay TV (720p)
@@ -159,6 +157,8 @@ https://live.artidijitalmedya.com/artidijital_mavikaradeniz/mavikaradeniz/playli
 http://54.36.110.140/live3/live3.m3u8
 #EXTINF:-1 tvg-id="MekameleenTV.tr" tvg-name="Mekameleen TV" tvg-logo="https://i.imgur.com/q7iVchl.png" tvg-country="TR" tvg-language="ara" group-title="Haber",Mekameleen TV (1080p)
 https://mn-nl.mncdn.com/mekameleen/smil:mekameleentv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MeltemTV.tr" tvg-name="Meltem TV" tvg-logo="https://i.imgur.com/C3m6w5S.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Meltem TV (1080p)
+https://vhxyrsly.rocketcdn.com/meltemtv/playlist.m3u8
 #EXTINF:-1 tvg-id="MercanTV.tr" tvg-name="Mercan TV" tvg-logo="https://i.imgur.com/3CWV8bS.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",Mercan TV (576p)
 https://live.artidijitalmedya.com/artidijital_mercantv/mercantv/playlist.m3u8
 #EXTINF:-1 tvg-id="MinikaCocuk.tr" tvg-name="Minika Cocuk" tvg-logo="https://i.imgur.com/VCywMTv.png" tvg-country="TR" tvg-language="tur" group-title="Çocuk",Minika Cocuk (720p)
@@ -197,8 +197,6 @@ https://canli.sercemtv.com.tr/hls/0/stream.m3u8
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TBMMTV.tr" tvg-name="TBMM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",TBMM TV (720p)
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
-#EXTINF:-1 tvg-id="Tele1.tr" tvg-name="Tele 1" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",Tele 1 (1080p)
-https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 tvg-id="TempoTV.tr" tvg-name="Tempo TV" tvg-logo="https://i.imgur.com/tZpx32y.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",Tempo TV (720p)
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 #EXTINF:-1 tvg-id="Tivi6.tr" tvg-name="Tivi 6" tvg-logo="https://i.imgur.com/Mbi0jbz.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Tivi 6 (720p)
@@ -233,6 +231,10 @@ https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
 http://canli.tvden.com.tr/hls/live.m3u8
 #EXTINF:-1 tvg-id="TVNET.tr" tvg-name="TVNET" tvg-logo="https://i.imgur.com/mQo8yWQ.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",TVNET (1080p)
 https://tvnet-live.lg.mncdn.com/tvnet/tvnet/playlist.m3u8
+#EXTINF:-1 tvg-id="UrfaNatikTV.tr" tvg-name="Urfa Natik TV" tvg-logo="https://i.imgur.com/8KO0uxn.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",Urfa Natik TV (1080p)
+https://live.artidijitalmedya.com/artidijital_urfanatiktv/urfanatiktv/playlist.m3u8
+#EXTINF:-1 tvg-id="Van65TV.tr" tvg-name="Van 65 TV" tvg-logo="https://van65tv.com/assets/images/logo/logo.png" tvg-country="TR" tvg-language="tur" group-title="Ulusal / Genel",Van 65 TV (720p)
+https://live.artidijitalmedya.com/artidijital_van65/van65/playlist.m3u8
 #EXTINF:-1 tvg-id="VavTV.tr" tvg-name="Vav TV" tvg-logo="https://i.imgur.com/jw0gB8L.png" tvg-country="TR" tvg-language="tur" group-title="Diğer",Vav TV (1080p)
 https://playlist.fasttvcdn.com/pl/rfrk9821hdy9dayo8wfyha/kltr-sanat-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ZarokTV.tr" tvg-name="Zarok TV" tvg-logo="https://i.imgur.com/o0eevnb.png" tvg-country="TR" tvg-language="kur;zza" group-title="Diğer",Zarok TV (720p)
@@ -253,4 +255,6 @@ https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 https://ciner.daioncdn.net/haberturktv/haberturktv.m3u8?app=c98ab0b0-50cc-495b-bb37-778e91f5ff5b&ce=3
 #EXTINF:-1 group-title="Ulusal / Genel",Show TV (1080p)
 https://ciner.daioncdn.net/showtv/showtv.m3u8?ce=3&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&st=RBzhSuGauna0OGld-DJUVA&e=1664766175&tv=1
-# 2026-09-17 tekrarinda cikartilan eski girisler (bu kontrol konumuna gore): TRT 1 (1440p) [HTTP 403: Forbidden]; Fortuna TV (1080p) [HTTP 403: Forbidden]; Meltem TV (1080p) [HTTP 404: Not Found]; Number 1 Ask (720p) [HTTP 404: Not Found]; Number 1 TV (720p) [HTTP 404: Not Found]; TV 264 (1080p) [HTTP 404: Not Found]; Urfa Natik TV (1080p) [HTTP 403: Forbidden]; Van 65 TV (720p) [HTTP 403: Forbidden]; ATV (720p) [The read operation timed out]
+#EXTINF:-1 group-title="Ulusal / Genel",ATV (720p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_720p.m3u8
+# 2026-09-18 tekrarinda eski listeden cikarilanlar: TGRT Haber (720p) [HTTP 404]; Aras TV (720p) [HTTP 404]; Kanal Hayat (1080p) [HTTP 404]; Tele 1 (1080p) [HTTP 404]
